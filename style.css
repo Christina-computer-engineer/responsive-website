@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+
+header{
+    background:#333;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+}
+
+.card{
+    width:30%;
+    background:#f4f4f4;
+    padding:20px;
+    text-align:center;
+}
+
+/* Mobile Responsive Design */
+
+@media (max-width:768px){
+
+    header{
+        flex-direction:column;
+    }
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        margin-top:10px;
+    }
+
+    nav a{
+        margin:5px 0;
+    }
+
+    .container{
+        flex-direction:column;
+    }
+
+    .card{
+        width:100%;
+        margin-bottom:15px;
+    }
+}
