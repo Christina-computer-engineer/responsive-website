@@ -36,6 +36,11 @@ Convert a desktop-only webpage into a mobile-friendly layout using CSS Media Que
 @media (max-width:768px)
 ```
 
+## Tested
+Tested on desktop and mobile viewports using browser developer tools.
+
+In firefox ctrl+shift+M
+
 ## Learning Outcome
 
 * Understanding CSS Media Queries
